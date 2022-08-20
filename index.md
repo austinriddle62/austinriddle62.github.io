@@ -1,14 +1,32 @@
-## Austin's Personal Website
+## Austin Riddle's Personal Website
 
-You can use the [editor on GitHub](https://github.com/austinriddle62/austinriddle62.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+Hello, my name is Austin Riddle and I am based in the Salt Lake Valley. This website will demonstrate my capabilities when it comes to data analysis and showcasing my skills. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Project One: Automotive Brands and Customer Satisfaction
 
-### Markdown
+For this project, I found a dataset off of Kaggle provided by [Ayaz Lakho](https://www.kaggle.com/datasets/ayazlakho/carsdataset). 
+My goal of this project was to find automotive brands with the highest satisfaction rate among customers from cars under $150,000 and from 2016 or newer. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#### Process
+Firstly, I separated the columns in excel by using the left() and right() functions. This helped me separate the year and brand name (the year, brand, model, and trim were all formatted together in one cell, like "2021 Ferrari SF90 Stradale Base"). I also added another column to make the average ratings a single number (for example, 4.2 was rounded to 4 and 3.6 was rounded to 3). 
 
-```markdown
+After organizing the data, I decided to upload the CSV file to BigQuery (SQL) to sort and organize the data. I created a nested query in which the first query was to filter the data to any vehicle from 2016-2022 and under $150,000.
+``` 
+WITH target_data AS 
+(SELECT year, brand, ratings_grouped, price
+FROM `capstone-358715.New_Used_Cars.Organized_New_Used`
+WHERE price <= 150000
+  AND year >= 2016
+)
+SELECT brand, AVG(ratings_grouped) AS average_ratings_brand
+FROM target_data
+GROUP BY brand
+ORDER BY average_ratings_brand DESC
+LIMIT 10
+```
+
+
+markdown
 Syntax highlighted code block
 
 # Header 1

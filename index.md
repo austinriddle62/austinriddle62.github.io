@@ -24,32 +24,11 @@ GROUP BY brand
 ORDER BY average_ratings_brand DESC
 LIMIT 10
 ```
+Next, I took this sorted information and uploaded it to Tableau to visualize it. 
+I placed the average ratings for brands in descending order.
 
+![Average Brands](https://user-images.githubusercontent.com/111258181/185814727-a927bf25-a30d-4650-b11c-1bf70e5a2b4f.png)
 
-markdown
-Syntax highlighted code block
+Of the top 10 rated brands, I found the average price and displayed them in descending order.
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/austinriddle62/austinriddle62.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+![Average Price of Top 10 Brands](https://user-images.githubusercontent.com/111258181/185814755-cc475f11-d6eb-401b-b9d3-0776c265bb0c.png)

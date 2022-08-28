@@ -41,6 +41,10 @@ Of the top 10 rated brands, I found the average price and displayed them in desc
 
 ![Average Price of Top 10 Brands](https://user-images.githubusercontent.com/111258181/185814755-cc475f11-d6eb-401b-b9d3-0776c265bb0c.png)
 
+### Conclusion
+
+Based off the results from this case study, I discovered that Land Rover had the highest rated satisfaction upon customers. I also came to the conslusion that if you want to buy a new vehicle from 2016 or newer, want something that is highly rated upon customers, but want to spend as least as possible, a Fiat will most likely fulfill your wants and needs. 
+
 ## Project Two: Superbowl Winning Teams and Draft Class Correlation
 
 For this project, I used two datasets off Kaggle provided by [CVIAXMIWNPTR](https://www.kaggle.com/datasets/cviaxmiwnptr/nfl-draft-19702021) and [Timo Bozsolik](https://www.kaggle.com/datasets/timoboz/superbowl-history-1967-2020). My goal of this project was to see if there was a correlation between a team in the NFL winning the Superbowl and that seasons draft class. 
@@ -103,3 +107,7 @@ ggplot(pos, aes(x=POSITION)) +
 This is the visualization I ended up with. 
 
 ![dft_sb_pos_graph](https://user-images.githubusercontent.com/111258181/187094934-6d22d158-179d-46fe-96d9-56ec88276692.png)
+
+### Conclusion 
+
+From this project, I discovered that defensive backs are the most common to draft in the NFL, especially among Superbowl winnning teams. According to Dictionary.com, a defensive back (also known as a DB) is "a defender positioned off the line of scrimmage for the purpose of covering pass receivers and tackling runners who elude linemen and linebackers." Defensive backs include safties (S) and cornerbacks (CB) as well. Although defensive backs are able to play the corner back and safety position, some athletes specialize in one or the other. Although this may seem like it is skewing the results of the analysis since a defensive back is made up of two other positions, they are doing the same job, just in different areas of the field. In most cases, a defensive back can go from playing corner back to safety. 

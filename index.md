@@ -1,5 +1,4 @@
 # Austin Riddle's Website and Portfolio 
-
 Hello, my name is Austin Riddle and I am based in the Salt Lake Valley. This website demonstrates my capabilities when it comes to data analysis and showcasing my skills. 
 
 ## Project One: Automotive Brands and Customer Satisfaction

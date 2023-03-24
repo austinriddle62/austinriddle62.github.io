@@ -1,7 +1,23 @@
 # Austin Riddle's Website and Portfolio 
 Hello, my name is Austin Riddle and I am based in the Salt Lake Valley. This website demonstrates my capabilities when it comes to data analysis and showcasing my skills. 
 
-## Project One: Automotive Brands and Customer Satisfaction
+## Project One: Point System
+January 2023
+
+My friend came to me with a business problem. They needed a way to keep track of points as a reward system for her employees. The goal of this point reward system was to give a set amount of points for weekly tasks and the team with the highest amount of points at the end of the week or month got a prize. 
+
+### Excel Process
+
+I started out in Excel creating a spreadsheet that listed all the tasks and the point amounts assigned to each one. I then made it so that they could input any amount of times the tasks were completed and it would automatically update the weekly and monthly point system. I used the SUM function to get the weekly points and the SUM IF function to get the monthly points. I broke up each team in to colors so I could use this function (=SUMIF(C10:R10,"Purple",C41:R41)) to get the monthly points. 
+
+![Point_System_AE](https://user-images.githubusercontent.com/111258181/227423367-0e25e624-9171-4025-bc12-4bec715c8d06.png)
+
+### Conclusion
+
+Although this wasn't a lengthy or in depth project, it was a great experience coming up with a solution to solve a business problem with my excel skills. My friend benefited a lot from this point system and her employer and coworkers thoroughly enjoyed it. 
+
+## Project Two: Automotive Brands and Customer Satisfaction
+October 2022
 
 For this project, I found a dataset off of Kaggle provided by [Ayaz Lakho](https://www.kaggle.com/datasets/ayazlakho/carsdataset). 
 The goal of this project was to find automotive brands with the highest satisfaction rate among customers from vehicles under $150,000 and from 2016 or newer. 
@@ -42,7 +58,8 @@ Of the top 10 rated brands, I found the average price and displayed them in desc
 
 Based off the results from this case study, I discovered that Land Rover had the highest rated satisfaction upon customers. I also came to the conslusion that if you want to buy a new vehicle from 2016 or newer, want something that is highly rated upon customers, but want to spend as least as possible, a Fiat will most likely fulfill your wants and needs. 
 
-# Project Two: Superbowl Winning Teams and Draft Class Correlation
+# Project Three: Superbowl Winning Teams and Draft Class Correlation
+October 2023
 
 For this project, I used two datasets off Kaggle provided by [CVIAXMIWNPTR](https://www.kaggle.com/datasets/cviaxmiwnptr/nfl-draft-19702021) and [Timo Bozsolik](https://www.kaggle.com/datasets/timoboz/superbowl-history-1967-2020). The goal of this project was to see if there was a correlation between a team in the NFL winning the Superbowl and that seasons draft class. 
 
